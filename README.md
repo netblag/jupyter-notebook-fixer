@@ -1,4 +1,4 @@
 # jupyter-notebook-fixer
 
-![My Image](https://i.imgur.com/QJwtqbI.png)
+<img src="https://i.imgur.com/QJwtqbI.png" alt="Sampel" width="800" height="400"/>
 
