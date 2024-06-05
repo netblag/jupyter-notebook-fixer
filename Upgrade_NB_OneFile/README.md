@@ -1,6 +1,6 @@
 <p align="center">
   
-<a href="https://github.com/netblag/jupyter-notebook-fixer/tree/main/upgrade_nb_OneFile" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg" alt="jupyter" width="100" height="100"/>
+<a href="https://github.com/netblag/jupyter-notebook-fixer/tree/main" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg" alt="jupyter" width="100" height="100"/>
 
 </a>
 
