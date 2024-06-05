@@ -1,4 +1,4 @@
 # jupyter-notebook-fixer
 
-![My Image](https://imgur.com/QJwtqbI)
+![My Image](https://i.imgur.com/QJwtqbI.png)
 
