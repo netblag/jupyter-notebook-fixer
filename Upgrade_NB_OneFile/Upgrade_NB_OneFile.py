@@ -29,9 +29,9 @@
 import nbformat
 
 # Load the notebook
-with open('File-Name.ipynb', 'r', encoding='utf-8') as f:
+with open('ّYOUR-FILE-NAME.ipynb', 'r', encoding='utf-8') as f:
     nb = nbformat.read(f, as_version=4)
 
 # Save the notebook with the latest version
-with open('File-Name-Updated.ipynb', 'w', encoding='utf-8') as f:
+with open('FILE-NAME-Updated.ipynb', 'w', encoding='utf-8') as f:
     nbformat.write(nb, f)
