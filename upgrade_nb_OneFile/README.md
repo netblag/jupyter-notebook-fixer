@@ -26,7 +26,7 @@
 - #### 3. Saving the notebook file with the latest version
 ---
 
-- ### ! This code only accepts one file (.ipynb)
+- ### ⚠️! This code only accepts one file (.ipynb)
 
 ---
 
