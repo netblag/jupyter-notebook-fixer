@@ -33,7 +33,7 @@
 ```sh
 
 new_folder_path = input("Please enter the new path for saving files: ")
-fix_and_update_notebook_version(folder_path, new_folder_path)
+update_notebook_version(folder_path, new_folder_path)
 
 ```
 
