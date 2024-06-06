@@ -1,6 +1,5 @@
-# jupyter notebook fixer
+# Jupyter Notebook Fixer
 
----
 <p align="center">
   <img src="https://i.imgur.com/lalSwBh.png" alt="Sample1" width="700" height="300"/>
 </p>
@@ -72,6 +71,16 @@ python update_notebook_version.py
 #### If you'd like to contribute to this project, you can help by submitting pull requests or reporting issues to improve it. We welcome any feedback and suggestions.
 
 
+
+<p align="center">
+  <a href="https://github.com/netblag">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/github/ccc?viewbox=auto" />
+      <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/github?viewbox=auto" />
+      <img alt="GitHub" height="90" src="https://cdn.simpleicons.org/github?viewbox=auto" />
+    </picture>
+  </a>
+  
 
 
 
