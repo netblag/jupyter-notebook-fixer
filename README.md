@@ -9,13 +9,13 @@
 ## Introduction
 In the world of data and computer science, Jupyter Notebook serves as one of the primary tools for data analysis and executing Python code. However, sometimes we encounter issues that result in corruption of notebook files, making it difficult to open or reuse them. This project is created to address this problem and update Jupyter Notebook files to a newer version.
 
-Problem
+## Problem
 Sometimes, you may have a set of .ipynb files that are corrupted due to various reasons or fail to open properly due to the use of older versions. This issue can lead to data loss, incomplete analyses, and wasted valuable time. In such situations, manually inspecting and correcting each notebook file is time-consuming and tiresome.
 
-Solution
+S## olution
 This project provides a simple and efficient script to update and fix all notebook files in a directory. The script automatically updates .ipynb files to version 4 and attempts to recover the file content and create a new notebook if an error occurs while reading the file. This approach ensures that all your notebook files are up-to-date and usable.
 
-Requirements
+## Requirements
 To use this project, you need the following:
 
 Python 3.x
