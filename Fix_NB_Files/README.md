@@ -28,7 +28,8 @@
 - ### Jupyter Notebook: The script relies on nbformat module, which is part of the Jupyter ecosystem. Make sure Jupyter is installed (`pip install jupyter`).
 
 - #### Folder Path: Replace `YOUR_FOLDER_PATH` in the script with the path of the directory containing the notebooks you want to update.
-- #### You can directly enter the folder path in the cmd and then use the following code to choose a new path for saving files:
+- 
+- #### You can directly enter the folder path in the `CMD` and then use the following code to choose a new path for saving files:
 
 ```sh
 
