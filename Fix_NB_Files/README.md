@@ -23,9 +23,9 @@
 
 ## Requirements
 
-- ### Python: Ensure `Python` is installed on your system.
+- #### Python: Ensure `Python` is installed on your system.
 
-- ### Jupyter Notebook: The script relies on nbformat module, which is part of the Jupyter ecosystem. Make sure Jupyter is installed (`pip install jupyter`).
+- #### Jupyter Notebook: The script relies on nbformat module, which is part of the Jupyter ecosystem. Make sure Jupyter is installed (`pip install jupyter`).
 
 - #### Folder Path: Replace `YOUR_FOLDER_PATH` in the script with the path of the directory containing the notebooks you want to update.
 - 
