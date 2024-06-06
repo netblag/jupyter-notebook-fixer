@@ -18,9 +18,14 @@
 
 import os
 import nbformat
+import shutil
 
-def update_notebook_version(folder_path):
-# List all files and folders in the given directory
+def update_notebook_version(folder_path, new_folder_path):
+    # Create a new folder if it doesn't exist
+    if not os.path.exists(new_folder_path):
+        os.makedirs(new_folder_path)
+
+    # List all files and folders in the given directory
     for root, dirs, files in os.walk(folder_path):
         for file in files:
             if file.endswith('.ipynb'):
@@ -32,13 +37,32 @@ def update_notebook_version(folder_path):
                     notebook = nbformat.read(f, as_version=4)
 
                 # Save the notebook file with version 4
-                with open(file_path, 'w', encoding='utf-8') as f:
+                with open(os.path.join(new_folder_path, file), 'w', encoding='utf-8') as f:
                     nbformat.write(notebook, f)
 
                 print(f"{file_path} has been updated to version 4.")
+    
+    print("Updated notebooks have been saved in the new folder.")
 
 # Replace your directory path
-folder_path = r'YOUR_FOLDER_PATH'
+
+#*------------------------------------------------------------------------------------------------*#
+# If you want all files within the current folder to be updated and saved, activate this code:
+
+# folder_path = r'YOUR_FOLDER_PATH'
+#*------------------------------------------------------------------------------------------------*#
+
+#*-----*#
+
+# To facilitate precise execution of the script, you can use this code to specify the path and save the file in another directory.
+
+folder_path = input("Enter Your Folder path: ")
+
+# new_folder_path = input("Enter the new folder to save path: ")
+
+# update_notebook_version(folder_path, new_folder_path)
+#*-----*#
+
 update_notebook_version(folder_path)
 
 
