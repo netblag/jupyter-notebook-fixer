@@ -27,12 +27,22 @@
 
 - ### Jupyter Notebook: The script relies on nbformat module, which is part of the Jupyter ecosystem. Make sure Jupyter is installed (`pip install jupyter`).
 
-- ### Folder Path: Replace `YOUR_FOLDER_PATH` in the script with the path of the directory containing the notebooks you want to update.
+- #### Folder Path: Replace `YOUR_FOLDER_PATH` in the script with the path of the directory containing the notebooks you want to update.
+- #### You can directly enter the folder path in the cmd and then use the following code to choose a new path for saving files:
+
+```sh
+
+new_folder_path = input("Please enter the new path for saving files: ")
+fix_and_update_notebook_version(folder_path, new_folder_path)
+
+```
+
+
 ***
 
 ## Usage
 
-- #### 1. Replace `YOUR_FOLDER_PATH` with the actual path of the directory containing your notebooks.
+- #### 1. Replace `YOUR_FOLDER_PATH` with the actual path of the directory containing your notebooks. Additionally, you can directly enter the folder path in `CMD`.
 - #### 2. Run the script.
 - #### 3. That's it! Your notebook files should now be updated to version 4.
 ---
