@@ -18,6 +18,7 @@
 
 import os
 import nbformat
+import shutil
 from nbformat.v4 import new_notebook
 
 def fix_and_update_notebook_version(folder_path):
@@ -59,7 +60,25 @@ def fix_and_update_notebook_version(folder_path):
                     print(f"{file_path} has been fixed and updated to version 4.")
 
 # Replace your directory path
-folder_path = r'YOUR_FOLDER_PATH'
+
+#*------------------------------------------------------------------------------------------------*#
+# If you want all files within the current folder to be updated and saved, activate this code:
+
+# folder_path = r'YOUR_FOLDER_PATH'
+#*------------------------------------------------------------------------------------------------*#
+
+#*-----*#
+
+# To facilitate precise execution of the script, you can use this code to specify the path and save the file in another directory.
+
+folder_path = input("Enter Your Folder path: ")
+
+# new_folder_path = input("Enter the new folder to save path: ")
+
+# fix_and_update_notebook_version(folder_path, new_folder_path)
+
+#*-----*#
+
 fix_and_update_notebook_version(folder_path)
 
 
