@@ -69,7 +69,7 @@ python update_notebook_version.py
 
 ### Contribution
 
-If you'd like to contribute to this project, you can help by submitting pull requests or reporting issues to improve it. We welcome any feedback and suggestions.
+#### If you'd like to contribute to this project, you can help by submitting pull requests or reporting issues to improve it. We welcome any feedback and suggestions.
 
 
 
