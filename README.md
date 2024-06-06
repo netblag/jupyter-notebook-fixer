@@ -67,10 +67,12 @@ python update_notebook_version.py
 - #### Ease of use: Simply specify the directory path containing your files and run the script.
 
 ### Contribution
-#### Copyright (c) 2024 [netblag](https://github.com/netblag)
+
 #### If you'd like to contribute to this project, you can help by submitting pull requests or reporting issues to improve it. We welcome any feedback and suggestions.
 
-
+### License
+#### Copyright (c) 2024 [netblag](https://github.com/netblag)
+#### This project is licensed under the [MIT](https://github.com/netblag/jupyter-notebook-fixer/blob/main/License) License, so you can freely use and share it with others.
 
 <p align="center">
   <a href="https://github.com/netblag">
